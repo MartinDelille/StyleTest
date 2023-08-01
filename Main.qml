@@ -7,7 +7,7 @@ Window {
     visible: true
     title: qsTr("StyleTest")
 
-    Button {
-        text: "Push Me!"
+    TextArea {
+        text: "A text\non several line\nwould like to be displayed using monofont\nlike Courier News"
     }
 }

@@ -18,6 +18,11 @@ qt_add_qml_module(appStyleTest
     QML_FILES Main.qml
 )
 
+qt_add_resources(appStyleTest conf
+  PREFIX "/"
+  FILES qtquickcontrols2.conf
+)
+
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
